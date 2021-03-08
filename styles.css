@@ -1,6 +1,10 @@
 body{
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
+    
+    /* font-family: 'Alata', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
 }
 nav { 
     position: absolute;
@@ -16,9 +20,11 @@ nav {
 } */
 
 .hero-img {
-    max-width: 100%;
+    max-width: 100vw;
+    max-height: 85vh;
+    top: 0em;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     position: absolute;
     z-index:-1;
 }
@@ -30,7 +36,6 @@ nav {
     padding: 10px 20px;
     position: absolute;
     margin: 200px auto; 
-
     left: 0;
     right: 0;
     border: 2px white solid;
@@ -42,5 +47,5 @@ nav {
     color: white;
     text-align: left;
     margin: auto 0em;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
