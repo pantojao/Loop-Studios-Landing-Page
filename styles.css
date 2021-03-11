@@ -3,6 +3,7 @@ body {
   height: 100%;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
+  margin: 0em;
 }
 nav {
   position: absolute;
@@ -54,6 +55,7 @@ nav {
 .interactive-vr {
   position: relative;
   padding: 1em;
+
 }
 
 .interactive-header {
@@ -61,8 +63,15 @@ nav {
 }
 
 .interactive-paragraph {
-  text-align: center;
+  text-align:center;
+  font-size: 1rem;
+  margin: 0 auto;
   justify-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
 .vr-img {
   object-fit: contain;
@@ -81,32 +90,53 @@ nav {
 }
 .creation-card {
   position: relative;
-  z-index: 0;
   width: 90%;
   font-weight: 300;
   margin: 0.5em auto;
+
 }
+
 .creation-img {
   max-width: 100% !important;
-  object-fit: contain;
+  object-fit: contains;
+  filter: brightness(50%)
 }
 
 .creation-title {
   position: absolute;
-  top: 30px;
+  font-weight: 300;
+  top: 34px;
   left: 20px;
   z-index: 100;
-  color: white;
+  color: hsl(0, 0%, 84%);
 }
+.center-btn { 
+    text-align: center;
+}
+
+.creations-btn { 
+    display: inline-block;
+    background-color: transparent;
+    font-family: Alata, sans-serif;
+    font-weight: bold;
+    border: 1px solid;
+    word-spacing: 3px;
+    padding: .5em 2.5em;
+}
+
 
 footer {
   background-color: black;
-  height: 375px;
-  width: 100vw;
+  height: 400px;
+  width: 100% !important;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 3em 0em 0em 0em !important;
+  padding: 50px 0em 0em 0em !important;
+
 }
+
 .footer-links {
   color: white;
   display: flex;
@@ -121,6 +151,9 @@ footer {
 .footer-socials {
   margin-top: 2em;
 }
-/* .footer-logo { 
-    outline: 2px red solid;
-    display: block; */
+
+.copy-rights { 
+    color: hsl(0, 0%, 41%);
+    margin-top: 1em;
+
+}
