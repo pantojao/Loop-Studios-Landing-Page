@@ -1,0 +1,7 @@
+
+To jump to end of line and get in insert mode: shift + A
+To jump to the begginning of line and get in insert mode: shift + I
+To delete a letter: x 
+To replace a letter: r + (whatever character you want)
+To move the end of the line in normal: w 
+jjasdlllllllllyljasdlllllllllyljasdlllllllllyljasdlllllllllywlasdlllllllllyljasdlllllllllyl

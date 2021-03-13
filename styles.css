@@ -16,6 +16,7 @@ nav {
   left: 5%;
 }
 
+
 .hero-header {
   position: relative;
   height: 85vh;
@@ -168,7 +169,7 @@ nav {
    display: none;
 }
 .brand-logo { 
-  width: 300px;
+  width: 200px;
 }
 
 .nav-bar { 
@@ -207,19 +208,37 @@ nav {
 }
 
 .interactive-vr {
-
+  position: relative;
+  max-width: 1500px;
+  margin: 3em auto; 
+  padding: 0em; 
 }
 
+.interactive-vr-content { 
+  position: absolute; 
+  width: 550px;
+  height: 350px;
+  top: 40%;
+  left: 700px;
+  z-index: 100;
+  padding: 1em 3em; 
+  background-color: white;
+}
 .interactive-header {
- 
+  text-align: left;
+  font-size: 2rem;
 }
 
 .interactive-paragraph {
-
+  text-align: left;
+  font-size: 1.2rem;
 }
 .vr-img {
- 
+  z-index: -3; 
+  width: 60%;
+  content:url("./images/desktop/image-interactive.jpg")
 }
+
 
 .our-creations {
  
